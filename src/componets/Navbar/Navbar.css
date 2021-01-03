@@ -28,6 +28,7 @@
   grid-template-columns: repeat(5, auto);
   grid-gap: 10px;
   list-style: none;
+  /* square inside url("sqpurple.gif"); */
   text-align: center;
   width: 70vw;
   justify-content: end;
@@ -57,13 +58,13 @@
 .menu-icon {
   display: none;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 960px) {
   .NavbarItems {
     position: relative;
   }
   .nav-menu {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
     height: 500px;
     position: absolute;
@@ -126,6 +127,6 @@
     transition: 250ms;
   }
   Button {
-    display: none;
+    display: block;
   }
 }
