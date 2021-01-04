@@ -10,14 +10,14 @@ class Homepage extends Component {
   render() {
     return (
       <>
-        <form class="example">
+        <form className="example">
           <input
             type="text"
             className="search-bar"
             placeholder="Search for a product or brand ...  "
           />
           <button type="submit">
-            <i class="fa fa-search"></i>
+            <i className="fa fa-search"></i>
           </button>
         </form>
         <h1 className="centre">
@@ -25,23 +25,23 @@ class Homepage extends Component {
           How can we help you
         </h1>
         <div className="section">
-          <div class="card">
+          <div className="card">
             <h1 className="centre">
-              <i class="fas fa-calendar-check"></i>
+              <i className="fas fa-calendar-check"></i>
             </h1>
             <p className="container-h">Every Week</p>
           </div>
           <div className="space" />
-          <div class="card">
+          <div className="card">
             <h1 className="centre">
-              <i class="fas fa-calendar-check"></i>
+              <i className="fas fa-calendar-check"></i>
             </h1>
             <p className="container-h"> Once Or twice a month </p>
           </div>
           <div className="space" />
           <div className="card">
             <h1 className="centre">
-              <i class="fas fa-calendar-check"></i>
+              <i className="fas fa-calendar-check"></i>
             </h1>
             <p className="container-h">Once in a while</p>
           </div>

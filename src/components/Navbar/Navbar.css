@@ -24,7 +24,9 @@
   margin-left: 0.5rem;
   font-size: 0.6rem;
 }
-
+.none {
+  display: none;
+}
 .nav-menu {
   display: grid;
   grid-template-columns: repeat(5, auto);
@@ -34,7 +36,7 @@
   text-align: center;
   width: 70vw;
   justify-content: end;
-  /* margin-right: 2rem; */
+  margin-right: 2rem;
 }
 
 .nav-links {
@@ -54,7 +56,9 @@
 }
 
 .nav-links-mobile {
-  display: none;
+  display: block;
+  color: white;
+  padding: 1.5rem;
 }
 
 .menu-icon {
@@ -115,14 +119,15 @@
     display: block;
     text-align: center;
     padding: 1.5rem;
-    /* margin: 2rem auto; */
-    border-radius: 4px;
-    width: 80%;
+    margin: 2rem auto;
+    border-radius: 5px;
+    /* width: 15%; */
+    /* height: 50%; */
     background: #4ad9e4;
     background-color: #7577fa;
     text-decoration: none;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .nav-links-mobile:hover {
     background: #fff;
