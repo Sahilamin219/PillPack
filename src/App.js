@@ -3,6 +3,8 @@ import "./styles.css";
 // import { Nav } from "react-bootstrap";
 import Header from "./Header";
 import Navbar from "./componets/Navbar/Navbar";
+import Lastpage from "./Lastpage";
+import Homepage from "./Homepage";
 
 class App extends Component {
   authenticated = () => {};
@@ -10,6 +12,8 @@ class App extends Component {
     return (
       <div>
         <Navbar />
+        <Homepage />
+        <Lastpage />
       </div>
     );
   }

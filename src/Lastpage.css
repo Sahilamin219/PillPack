@@ -1,0 +1,23 @@
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.container {
+  /* display: flex; */
+  /* width: 50%; */
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
