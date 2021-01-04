@@ -8,18 +8,29 @@ class Lastpage extends Component {
   render() {
     return (
       <>
-        <div className="footer-link-item">
-          <div className="row">
-            <div className="container">
-              <div className="column"></div>
+        <footer>
+          <div className="row-l">
+            <div className="block-l">
+              <div className="column">
+                <h1 className="logo-l">
+                  <i class="fas fa-ambulance"></i>XpressDawa
+                </h1>
+                <p className="blue">
+                  <b>Contact Us </b>
+                </p>
+                <p>999-010-8490</p>
+                <space-l />
+              </div>
+            </div>
+            <space-l />
+            <div className="container-l">
               <img
                 src="./assets/try.jpeg"
                 alt="Man with Medicines"
                 width="400"
                 height="200"
+                className="block-l"
               />
-            </div>
-            <div className="container">
               <div className="conatiner">
                 <div className="column">
                   <ul>
@@ -31,7 +42,7 @@ class Lastpage extends Component {
                   <ul>Help</ul>
                 </div>
               </div>
-              <div className="conatiner">
+              <div className="conatiner-l">
                 <div className="column">
                   <ul>
                     <b>Company</b>
@@ -42,7 +53,7 @@ class Lastpage extends Component {
                   <ul>Service Guide</ul>
                 </div>
               </div>
-              <div className="conatiner">
+              <div className="conatiner-l">
                 <div className="column">
                   <ul>
                     <b>Legal</b>
@@ -54,7 +65,7 @@ class Lastpage extends Component {
                   <ul>Nondiscrimination</ul>
                 </div>
               </div>
-              <div className="conatiner">
+              <div className="conatiner-l">
                 <div className="column">
                   <ul>
                     <b>For Doctors</b>
@@ -62,13 +73,13 @@ class Lastpage extends Component {
                   <ul>PillPack by Amazon Pharmacy</ul>
                   <ul>
                     250 Commercial Street, Suite 2012 Manchester, NH 03101
+                    E-Scribe: NCPDP 3061582
                   </ul>
-                  <ul>E-Scribe: NCPDP 3061582</ul>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </footer>
         <div></div>
       </>
     );

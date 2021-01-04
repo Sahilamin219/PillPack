@@ -19,21 +19,21 @@ class Homepage extends Component {
             <h1 className="centre">
               <i class="fas fa-calendar-check"></i>
             </h1>
-            <p className="container">Every Week</p>
+            <p className="container-h">Every Week</p>
           </div>
           <div className="space" />
           <div class="card">
             <h1 className="centre">
               <i class="fas fa-calendar-check"></i>
             </h1>
-            <p className="container"> Once Or twice a month </p>
+            <p className="container-h"> Once Or twice a month </p>
           </div>
           <div className="space" />
           <div className="card">
             <h1 className="centre">
               <i class="fas fa-calendar-check"></i>
             </h1>
-            <p className="container">Once in a while</p>
+            <p className="container-h">Once in a while</p>
           </div>
         </div>
       </>

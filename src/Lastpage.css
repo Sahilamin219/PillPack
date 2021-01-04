@@ -4,20 +4,45 @@
 }
 
 /* Clear floats after the columns */
-.row:after {
+.row-l {
   content: "";
-  display: table;
+  /* display: table; */
+  margin-right: 10%;
+  margin-left: 10%;
+  /* float: right; */
   clear: both;
+  justify-content: center;
+  align-items: center;
 }
-.container {
+.container-l {
   /* display: flex; */
-  /* width: 50%; */
+  /* height: 300px; */
   justify-content: center;
   align-items: center;
   font-size: 0.8rem;
 }
+.space-l {
+  width: 50px;
+}
+.block-l {
+  justify-content: center;
+  align-items: center;
+}
+.blue {
+  color: blue;
+}
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
+  }
+  .row-l {
+    float: none;
+    width: 100%;
+  }
+  .column {
+    width: 100%;
+  }
+  .logo-l {
+    font-size: 8vw;
   }
 }
