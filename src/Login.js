@@ -1,6 +1,12 @@
 import React, { Component } from "react";
 
 class UserForm extends Comment {
+  state = {
+    text: "Chatastrophe",
+    email: "",
+    password: "",
+    error: ""
+  };
   render() {
     return (
       <form onSubmit={this.handleSubmit}>

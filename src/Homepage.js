@@ -10,6 +10,16 @@ class Homepage extends Component {
   render() {
     return (
       <>
+        <form class="example">
+          <input
+            type="text"
+            className="search-bar"
+            placeholder="Search for a product or brand ...  "
+          />
+          <button type="submit">
+            <i class="fa fa-search"></i>
+          </button>
+        </form>
         <h1 className="centre">
           <div className="space" />
           How can we help you

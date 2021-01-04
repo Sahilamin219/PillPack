@@ -18,6 +18,7 @@
 .btn--primary {
   /* background-color: var(--primary); */
   background-color: #3acbf7;
+  /* width: 20px; */
 }
 .btn-outline {
   background-color: transparent;

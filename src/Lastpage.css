@@ -24,12 +24,11 @@
 .space-l {
   width: 50px;
 }
-.block-l {
-  justify-content: center;
-  align-items: center;
-}
 .blue {
   color: blue;
+}
+.block-l {
+  margin-left: 10%;
 }
 @media screen and (max-width: 600px) {
   .column {
@@ -44,5 +43,12 @@
   }
   .logo-l {
     font-size: 8vw;
+  }
+  .block-l {
+    margin-left: 10%;
+    justify-content: center;
+    align-items: center;
+    /* height: 250px; */
+    width: 70%;
   }
 }
